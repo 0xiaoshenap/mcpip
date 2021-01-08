@@ -1,0 +1,830 @@
+<html>
+<head>
+  <script>
+  !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/IEMobile/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");return"undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+
+  (function () {
+    var MOBILE_SITE = 'https://m.ucloud.cn';
+    var pathname = location.pathname.replace(/^\/site/, '/mobile');
+
+    if (isMobile.phone || isMobile.seven_inch) {
+      location.href = MOBILE_SITE + pathname;
+    }
+  })();
+</script>
+
+  <meta charset="utf-8">
+<title>MCpip-韵加速</title>
+<meta name="baidu-site-verification" content="1gI7Zq0osr" />
+<meta name="keywords" content="云主机、云数据库、混合云、CDN、云计算、UCloud、优刻得、云服务器、互联网+解决方案、人工智能、全球服解决方案、科"/>
+<meta name="description" content="UCloud(优刻得)是中国知名的中立云计算服务商，科创板上市(股票代码：688158)，中国云计算第一股，专注于提供可靠的企业级云服务，包括云服务器、云主机、云数据库、混合云、CDN、人工智能等服务。"/>
+
+  <link rel="canonical" href="https://www.ucloud.cn/"/>
+  <link href="static/css/index.css" rel="stylesheet">
+  <meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="static/js/e8dc73e4061f49b897308f555c055a23.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-48580821-1');
+</script>
+<!-- Hotjar Tracking Code for https://ucloud.cn -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1469719,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<link rel="shortcut icon" href="/favicon.ico?v=2020122401" type="image/vnd.microsoft.icon">
+<link href="static/css/common.css" rel="stylesheet">
+<link href="static/css/icon.min.css" rel="stylesheet">
+<link href="static/css/icon_division.min.css" rel="stylesheet">
+<script type="text/javascript" src="static/js/initmatomo_www.js"></script>
+<script type="text/javascript" src="static/js/common.min.js"></script>
+<script type="text/javascript" src="static/js/cp.min.js"></script>
+<script type="text/javascript" src="static/js/xdomainrequest.js"></script>
+<script async="" crossorigin="true" src="static/js/das.js"></script>
+<script type="text/javascript" src="static/js/survey.js" async></script>
+</head>
+<body data-spy="scroll" data-target="#navbar-example" style="position: relative;">
+<div class="mobile-wrapper">
+<div class="page-header discolorheader whiteheader">
+    <div id="nav-loction" data-json="{&quot;https://www.ucloud.cn/site/product/&quot;:&quot;nav-product&quot;, &quot;https://www.ucloud.cn/site/udnr/inquire.html&quot;:&quot;nav-product&quot;, &quot;https://www.ucloud.cn/site/cases.html&quot;:&quot;nav-case&quot;,&quot;https://www.ucloud.cn/site/cases/&quot;:&quot;nav-case&quot;, &quot;https://www.ucloud.cn/site/ucan/&quot;:&quot;nav-activity&quot;, &quot;https://www.ucloud.cn/site/active/tic2017.html&quot;:&quot;nav-activity&quot;, &quot;https://www.ucloud.cn/site/active/tic.html&quot;:&quot;nav-activity&quot;, &quot;https://www.ucloud.cn/site/idc/&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/ucsafe/&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/usafe/notice.html&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/gdpr/GDPR.html&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/service.html&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/services/&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/about/news/&quot;:&quot;nav-about&quot;, &quot;https://www.ucloud.cn/site/about/report/&quot;:&quot;nav-other&quot;, &quot;https://www.ucloud.cn/site/about/contact/&quot;:&quot;nav-about&quot;, &quot;https://www.ucloud.cn/site/about/intro/&quot;:&quot;nav-about&quot;,&quot;https://www.ucloud.cn/site/pro-notice/&quot;:&quot;nav-about&quot;,&quot;https://www.ucloud.cn/site/solutions.html&quot;:&quot;nav-solution&quot;,&quot;https://www.ucloud.cn/site/solution/&quot;:&quot;nav-solution&quot;}
+"></div>
+    <div class="main" style="overflow: visible;">
+        <br>
+            <div class="top-wear-left">
+                    <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-imgbed/88812518-943d-41bd-89be-698e5b3ad43b.png" width="100%" height="70%"/>
+            </div>
+            <div class="top-wear-middle" >
+            </div>
+            <div class="top-wear-right">
+                <div class="nav-search-wrap search-hide">
+                    <button title="搜索" id="nav-searchkey-button" class="icon__search search-button"></button>
+                    <div class="nav-search-key-box">
+                        <span class="icon__search"></span>
+                        <input text="text" id="nav-search-key" class="nav-search-key" placeholder="搜索产品、产品文档" onfocus="if(placeholder=='搜索产品、产品文档') {placeholder=''}" onblur="if (value=='') {placeholder='搜索产品、产品文档'}">
+                        <button title="清空" id="nav-search-clear" class="icon__cross search-clear"></button>
+                        <div id="nav-search-dropdown" class="nav-search-dropdown">
+                            <div id="nav-search-result" class="nav-search-result"></div>
+                            <div id="full-search-name" class="full-search-name">
+                            </div>
+                            <div id="nav-search-dc" class="nav-search-dc">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="link-style vertical-position" href="https://docs.ucloud.cn/" target="_blank">文档</a>
+                <a class="link-style vertical-position" href="https://console.ucloud.cn/icp">备案</a>
+                <ul class="logined vertical-position dn">
+                    <li class=" login ">
+                        <a href="https://accountv2.ucloud.cn/userinfo" class="user-name link-style"></a>
+                        <a href="https://passport.ucloud.cn/logout" class="link-style">退出</a>
+                    </li>
+                </ul>
+                <ul class="dib vertical-position">
+                    <li class="nologin vertical-position">
+                        <a href="https://passport.ucloud.cn/#register" class="button-base button-radius-4 button-bluegradient h34">快速注册</a>
+                    </li>
+                    <li class="vertical-position">
+                        <a href="https://passport.ucloud.cn/#login" target="_blank" class="button-base button-radius-4 button-blueborder h34-border login tologin">登录控制台</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+</div>
+
+<div class="indexbanner">
+    <div class="bgcolors">
+        <div class="bannerbg-pic bluebg">
+            <img class='' src="static/picture/111.png">
+        </div>
+<div class="bannerbg-pic whitebg">
+            <img class='' src="static/picture/222.png">
+        </div>
+<div class="bannerbg-pic bluebg">
+            <img class='' src="static/picture/333.png">
+        </div>
+<div class="bannerbg-pic bluebg">
+            <img class='' src="static/picture/1d09cb2a6a7c47e38436a97788e43349.png">
+        </div>
+<div class="bannerbg-pic whitebg">
+            <img class='dn' src="">
+        </div>
+
+    </div>
+    <div class="bannerbgs">
+        <img class='bannerbg-img ' src="static/picture/e77de87f133a41a4b08690624d430302.png"/>
+<img class='bannerbg-img ' src="static/picture/e2761b9c9541419c9d53331960711c3b.png"/>
+<img class='bannerbg-img dn' src=""/>
+<img class='bannerbg-img dn' src=""/>
+<img class='bannerbg-img dn' src=""/>
+
+    </div>
+    <ul class="banner-list-index">
+        <!-- <li class='active' style='' data-bgcolor=>
+            <a href='/site/active/ipip_net.html ' target="_blank">
+                <img class="pc-banner" src="static/picture/25d90fa098a9a3a67dc50dc53da38dc4.png"/>
+            </a>
+        </li> -->
+        <li class='active' style=''> <a href='/site/active/ipip_net.html ' target="_blank">
+            <img class="pc-banner" src="static/picture/25d90fa098a9a3a67dc50dc53da38dc4.png" />
+            </a>
+        </li>
+<!-- <li class='' style='opacity: 0;' data-bgcolor=>
+            <a href='/site/active/US3.html' target="_blank">
+                <img class="pc-banner" src="static/picture/66306f1a3ab0e29d30d1d5494264851f.png"/>
+            </a>
+        </li> -->
+        <li class='' style='opacity: 0;'> <a href='/site/active/US3.html' target="_blank">
+            <img class="pc-banner" src="static/picture/66306f1a3ab0e29d30d1d5494264851f.png" />
+            </a>
+        </li>
+<!-- <li class='' style='opacity: 0;' data-bgcolor=https://static.ucloud.cn/d505f25516c9ec42e5aff462c76f7812.png>
+            <a href='https://www.ucloud.cn/site/active/kuaijie.html' target="_blank">
+                <img class="pc-banner" src="static/picture/1a46c46ada71ca93925e242e2dd3c991.png"/>
+            </a>
+        </li> -->
+        <li class='' style='opacity: 0;'> <a href='https://www.ucloud.cn/site/active/kuaijie.html' target="_blank">
+            <img class="pc-banner" src="static/picture/1a46c46ada71ca93925e242e2dd3c991.png" />
+            </a>
+        </li>
+<!-- <li class='' style='opacity: 0;' data-bgcolor=https://static.ucloud.cn/1d09cb2a6a7c47e38436a97788e43349.png>
+            <a href='https://mp.weixin.qq.com/s?__biz=MjM5NDE0MjI4MA==&mid=2656308437&idx=1&sn=e4155536e454de6b0af231d2781e4cee&chksm=bd2cedf' target="_blank">
+                <img class="pc-banner" src="static/picture/0b3f0504c7844bbdb19936599715f450.png"/>
+            </a>
+        </li> -->
+        <li class='' style='opacity: 0;'> <a href='https://mp.weixin.qq.com/s?__biz=MjM5NDE0MjI4MA==&mid=2656308437&idx=1&sn=e4155536e454de6b0af231d2781e4cee&chksm=bd2cedf' target="_blank">
+            <img class="pc-banner" src="static/picture/0b3f0504c7844bbdb19936599715f450.png" />
+            </a>
+        </li>
+<!-- <li class='' style='opacity: 0;' data-bgcolor=>
+            <a href='https://www.ucloud.cn/site/active/uhost-amd.html' target="_blank">
+                <img class="pc-banner" src="static/picture/9344a24585104283a33c9d80f14f4799.png"/>
+            </a>
+        </li> -->
+        <li class='' style='opacity: 0;'> <a href='https://www.ucloud.cn/site/active/uhost-amd.html' target="_blank">
+            <img class="pc-banner" src="static/picture/9344a24585104283a33c9d80f14f4799.png" />
+            </a>
+        </li>
+
+    </ul>
+    <div class="lines-wrap-index index">
+    </div>
+</div>
+<div class="gray-bg">
+    <div class="home-activitys">
+    <div class="home-activity">
+        <a href="/site/active/kuaijie.html" target="_blank">
+            <div class="simg">
+                <img   src="static/picture/7301fa6f2f824573a06243ed2b4aac23.png" />
+            </div>
+            <div class="home-activity-content">
+                <p class="title">极致加速 超牛体验</p>
+                <p class="home-gray">专线加速 低延迟<br />
+官方承诺 永久免费</p>
+            </div>
+        </a>
+    </div>
+<div class="home-activity">
+        <a href="/site/global.html" target="_blank">
+            <div class="simg">
+                <img   src="static/picture/4ede06488ace48deaa82206ceb0c51dd.png" />
+            </div>
+            <div class="home-activity-content">
+                <p class="title">多平台 全兼容</p>
+                <p class="home-gray">监控整局游戏延迟，细化每一段路由延迟细节<br /></p>
+            </div>
+        </a>
+    </div>
+<div class="home-activity">
+        <a href="/site/active/cdn-ufile.html" target="_blank">
+            <div class="simg">
+                <img   src="static/picture/6b74c3c7852d4e0c9fe45e8c5f6ef3bd.png" />
+            </div>
+            <div class="home-activity-content">
+                <p class="title">品质保证</p>
+                <p class="home-gray">更快连接全球网游！<br />
+                    加速后游戏延迟稳定</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+<div class="home-main-blue">
+    <div class="home-main">
+        <h2 class="home-index-h2">解决方案<span class="en5">solution</span></h2>
+        <div class="home-solutions-new">
+            <div class="solution-contain">
+                <ul>
+                    <li>
+                        <h3 class="home-h3"><img class="simg" height="28" src="static/picture/6b372e5c657845a49030ab469e4057b8.png" />新零售</h3>
+                        <p>通过云计算、大数据、人工智能等技术，将零售场景中要素进行整合，达到精准营销，高效运营</p>
+                        <a href="/site/solution/nretail.html" class="button-base button-radius-4 button-blueborder h34-border">了解详情</a>
+
+                    </li>
+                    <li>
+                        <h3 class="home-h3"><img class="simg" height="28" src="static/picture/1cf3f076e5cb44f4b5fa11f05a623401.png" />医疗</h3>
+                        <p>通过安全、可靠的云平台为卫健委、医院、互联网医疗企业的业务提供稳定支撑</p>
+                        <a href="/site/solution/health.html" class="button-base button-radius-4 button-blueborder h34-border">了解详情</a>
+
+                    </li>
+                    <li>
+                        <h3 class="home-h3"><img class="simg" height="28" src="static/picture/6fdd730186fc416a91070090e01f5642.png" />出海</h3>
+                        <p>通过UCloud布局全球的数据中心，及网络产品实现客户游戏、电商等业务在全球的布局</p>
+                        <a href="/site/solution/oversea.html" class="button-base button-radius-4 button-blueborder h34-border">了解详情</a>
+
+                    </li>
+                    <li>
+                        <h3 class="home-h3"><img class="simg" height="28" src="static/picture/502f1e4d5200435a8bb411b3c5416947.png" />金融</h3>
+                        <p>本方案为互联网金融、银行、证券等行业提供包括安全、合规等在内的完备产品与服务</p>
+                        <a href="/site/solution/financial.html" class="button-base button-radius-4 button-blueborder h34-border">了解详情</a>
+
+                    </li>
+                    <li>
+                        <h3 class="home-h3"><img class="simg" height="28" src="static/picture/cbf85e6de8e3419c81e388b5b68e4152.png" />智慧校园</h3>
+                        <p>智慧校园是一套兼具软硬一体化、功能模块化、数据一体化、高度智能化的识别解决方案</p>
+                        <a href="/site/solution/smartschool.html" class="button-base button-radius-4 button-blueborder h34-border">了解详情</a>
+
+                    </li>
+                    <li>
+                        <img class="more-img" src="static/picture/8e74c3cea2f04d00b34cf9d0f77debfe.png">
+                        <a href="/site/solutions.html" target="_blank" class="button-base button-radius-4 button-blueborder h34-border">更多方案</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bule-bg">
+    <div class="home-main">
+        <h2 class="home-index-h2 white">全球可用区<span class="en5">Availability Zone</span></h2>
+        <div class="home-region">
+            <ul class="new-tabs bluebg home-region-list">
+                <div class="selected-line" ></div>
+                <li class="selected">全球
+                    31个
+
+                </li>
+                <li>国内
+                    14个
+
+                </li>
+                <li>专线
+                    29条
+
+                </li>
+            </ul>
+            <div class="region-contain">
+                <a class="magnifier"></a>
+                <img width="1080" style="margin-top: 36px;" src="static/picture/810f904e4d641f7fcdbea920ddf3f5f1.png"/>
+
+            </div>
+            <div class="region-contain clearfix dn">
+                <img width="1080" style="margin-top: 64px;" src="static/picture/19232a1aa4cdb689a91966aa618fb2e6.png"/>
+
+                <ul class="region-lists left">
+                    <li>
+                        <span class="region">北京二</span>
+                        <span class="zone">可用区B；可用区C；可用区D；可用区E</span>
+                        <div class="zonetips">
+                            为华北周边及全国提供优质网络服务；提供中美、京沪、京广三条专线服务
+                        </div>
+                    </li>
+                    <li>
+                        <span class="region">上海金融云</span>
+                        <span class="zone">可用区A</span>
+                        <div class="zonetips">
+                            为华东周边及全国提供优质网络服务；提供京沪、沪广、中日三条专线服务
+                        </div>
+                    </li>
+                    <li>
+                        <span class="region">上海二</span>
+                        <span class="zone">可用区A；可用区B；可用区C</span>
+                        <div class="zonetips">
+                            为华东周边及全国提供优质网络服务；提供京沪、沪广、中日三条专线服务
+                        </div>
+                    </li>
+                    <li>
+                        <span class="region">香港</span>
+                        <span class="zone">可用区A；可用区B</span>
+                        <div class="zonetips thin">
+                            为港澳台地区用户提供优质网络服务
+                        </div>
+                    </li>
+                </ul>
+                <ul class="region-lists right">
+                    <li>
+                        <span class="region">广州</span>
+                        <span class="zone">可用区B</span>
+                        <div class="zonetips">
+                            为华南周边及全国提供优质网络服务；提供京广、沪广、穗港三条专线服务
+                        </div>
+                    </li>
+                    <li>
+                        <span class="region">台北</span>
+                        <span class="zone">可用区A</span>
+                        <div class="zonetips thin">
+                            为港澳台地区用户提供优质网络服务
+                        </div>
+                    </li>
+                    <li>
+                        <span class="region">福建</span>
+                        <span class="zone">GPU可用区A</span>
+                        <div class="zonetips">
+                            为华南及全国提供优质网络服务；是GPU机型的专属可用区
+                        </div>
+                    </li>
+                    <li>
+                        <span class="region">杭州</span>
+                        <span class="zone">可用区A</span>
+                        <div class="zonetips">
+                            为华东周边及全国提供优质网络服务；提供沪杭专线服务
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="region-contain dn">
+                <img width="1080"  style="margin-top:36px;"  src="static/picture/5e8acac54dc7362fae1165e0b8a40d7c.png"/>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="home-main-blue">
+    <div class="home-main" id="NewUClouder">
+        <h2 class="home-index-h2">新手云游指南<span class="en5">Beginner's Guide</span></h2>
+        <div class="home-learn">
+            <div class="learn-steps">
+                <div class="learn-step selected">
+                    <i class="sicon sicon-step1"></i>
+                    <span>了解云计算</span>
+                    <i class="step-arrow"></i>
+                </div>
+                <div class="learn-step">
+                    <i class="sicon sicon-step2"></i>
+                    <span>产品体系</span>
+                    <i class="step-arrow"></i>
+                </div>
+                <div class="learn-step">
+                    <i class="sicon sicon-step3"></i>
+                    <span>解决方案</span>
+                    <i class="step-arrow"></i>
+                </div>
+                <div class="learn-step">
+                    <i class="sicon sicon-step4"></i>
+                    <span>客户收益</span>
+                    <i class="step-arrow"></i>
+                </div>
+                <div class="learn-step">
+                    <i class="sicon sicon-step5"></i>
+                    <span>使用UCloud</span>
+                </div>
+            </div>
+            <a class="pre-step dn">
+                <span class="button-square-white">
+                   <i class="icon__arrow-left"></i>
+                </span>
+            </a>
+            <a class="next-step">
+                <span class="button-square-white">
+                    <i class="icon__arrow-right"></i>
+                </span>
+            </a>
+            <ul id="test" style="position: relative;height: 372px; transition: all 0.5s ease-in-out 0.05s;">
+                <li class="learn-contain active">
+                    <img src="static/picture/da484aa775984acbbb2a3e73d82357dc.png" />
+                    <div class="learn-context">
+                        <p>云计算是弱化传统IT硬件概念的计算资源服务。可依据业务需求按需按量使用计算资源以满足当前的业务需求，并具有可在业务高速发展的同时随时扩展所需的计算资源的能力。</p>
+                        <p>云计算产品通过底层先进成熟的容灾冗余架构使得产品本身具备高可用、数据可靠、高性能、弹性的特性，可大幅降低前期业务部署以及后续运维的成本投入。</p>
+                    </div>
+                </li>
+                <li class="learn-contain">
+                    <img src="static/picture/680a3d5ec32648a78bb9267bbf3f9096.png" />
+                    <div class="learn-context">
+                        <p>UCloud提供通用计算、IO密集型计算、科学计算等多场景的计算类产品；高速缓存、高可用块存储、低成本归档存储等不同成本需求的存储类产品；满足底层架构灵活性、国内高效访问、国际加速业务等多种场景的网络产品；满足用户自身业务架构丰富灵活的需求。</p>
+                        <p>除云计算基础IaaS产品外提供丰富的细分行业以及专业领域的PaaS、SaaS产品。助力用户在前沿领域垂直市场抢占先机。</p>
+                        <p><a class="word-link" href="https://www.ucloud.cn/site/product/uhost.html">了解UCloud产品&nbsp;&nbsp;&gt;&gt;</a></p>
+                    </div>
+                </li>
+                <li class="learn-contain">
+                    <img src="static/picture/7bbd409322e646d5a9193fe5928c09d3.png" />
+                    <div class="learn-context">
+                        <!-- <span>解决方案</span> -->
+                        <p>UCloud针对不同的行业需求推出了完整解决方案体系，覆盖了高可用、人工智能、海量计算、安全等技术场景，以及新零售、医疗、出海、金融等业务场景。</p>
+                    <p>UCloud为客户提供了快速、平稳的云计算服务，并满足特定行业的法规、监管、安全等要求，保障客户业务稳定运行，并且保证客户业务架构具有适应时代进步、技术进步而进行业务框架自我升级、自我修复的能力。</p>
+                        <p><a class="word-link" href="/site/solutions.html">了解UCloud解决方案&nbsp;&nbsp;&gt;&gt;</a></p>
+                    </div>
+                </li>
+                <li class="learn-contain">
+                    <img src="static/picture/5fbef212ea464644bd11dab095f45d71.png" />
+                    <div class="learn-context">
+                        <!-- <span>客户收益</span> -->
+                        <p><b>节约成本</b>：使用云产品，可以帮助您降低硬件、运维、人力成本，只需要通过简单的界面操作或api调用即可满足您的需求。</p>
+                        <p><b>可扩展性</b>：云产品可以进行动态扩容，快速适应您的业务变动。通过无管理服务器模式（Serverless）即可进行大规模分布式并行计算。</p>
+                        <p><b>数据安全</b>：您的数据将被加密存储在第三方平台的全球服务器中。通过有效的隔离、加密、保存副本等措施云产品全面保障您的数据安全。</p>
+                        <p><b>轻松管理</b>：您可以在任意位置、任意时间使用各种终端通过互联网享受云服务，并且可以通过云产品界面统一监控产品动态，删除、创建您所需的云产品。</p>
+                    </div>
+                </li>
+                <li class="learn-contain">
+                    <img src="static/picture/6bb91853dfac45ef9ed225f59cd3608b.png" />
+                    <div class="learn-context">
+                        <!-- <span>使用UCloud</span> -->
+                        <p><a class="word-link" href="http://education.ucloud.cn/modules/resource.php#compute" target="_blank">UCloud计算产品使用指南&nbsp;&nbsp;&gt;&gt;</a></p>
+                        <p><a class="word-link" href="http://education.ucloud.cn/modules/resource.php#net" target="_blank">UCloud网络产品使用指南&nbsp;&nbsp;&gt;&gt;</a></p>
+                        <p><a class="word-link" href="http://education.ucloud.cn/modules/resource.php#storage" target="_blank">UCloud存储产品使用指南&nbsp;&nbsp;&gt;&gt;</a></p>
+                        <p><a class="word-link" href="http://education.ucloud.cn/modules/video-detail.php?video=video-usec" target="_blank">更多&nbsp;&nbsp;&gt;&gt;</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="home-main">
+    <h2 class="home-index-h2">稳定·可靠·安全<span class="en5">Stable, safe and reliable</span></h2>
+    <div class="home-assure">
+        <div class="clearfix">
+            <div class="assure-service">
+                <ul>
+                <li>
+                    <i class="sicon sicon-service1"></i>
+                    <span>7*24h 专业服务</span>
+                </li>
+                <li>
+                    <i class="sicon sicon-service2"></i>
+                    <span>业务故障  百倍赔偿</span>
+                </li>
+                <li>
+                    <i class="sicon sicon-service3"></i>
+                    <span>0元试用7天</span>
+                </li>
+                <li>
+                    <i class="sicon sicon-service4"></i>
+                    <span>1v1大客户专享服务</span>
+                </li>
+                </ul>
+                <div class="home-assure-button">
+                    <a class="button-base button-radius-4 button-blueborder h34-border mr16" href="/site/ucsafe/">安全中心</a>
+                    <a class="button-base button-radius-4 button-bluegradient h34" href="/site/gdpr/GDPR.html">数据保障</a>
+                </div>
+            </div>
+            <div class="assure-security">
+                <div class="security-protect">
+                    <p class="first">
+                        <span class="title">数据可靠性</span>
+                        <span class="symbol">≥</span>
+                        <span class="en3">99.99999</span>
+                        <span class="symbol">%</span>
+                    </p>
+                    <p class="first second">
+                        <span class="title">业务可靠性</span>
+                        <span class="symbol">≥</span>
+                        <span class="en3">99.95</span>
+                        <span class="symbol">%</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="assure-aptitude">
+    <ul class="assure-aptitude-list">
+        <li class="assureseleted"><div>工信部<br/>可信云服务认证</div></li>
+        <li><div>国家信息安全等级<br/>保护三级</div></li>
+        <li><div>云计算信息安全管<br/>理体系认证</div></li>
+        <li><div>信息安全管理<br/>体系认证</div></li>
+        <li><div>信息技术服务管<br/>理体系认证</div></li>
+        <li><div>质量管理<br/>体系认证</div></li>
+        <li><div>ITSS云计算服务<br/>能力一级资源</div></li>
+    </ul>
+</div>
+<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="static/js/touchwipe.js"></script>
+<script type="text/javascript" src="static/js/index.js"></script>
+<div class="service-tool">
+    <div class="service-tool-wrap">
+        <div class="link-wrap ser-register">
+            <a target="_blank" href="https://passport.ucloud.cn/#register">
+                <div class="link-tips">
+                    注册享免费套餐
+                </div>
+            </a>
+        </div>
+        <div class="link-wrap ser-service">
+            <div class="link-tips">
+                <a target="_blank" href="https://spt.ucloud.cn/30001" class="service">
+                    <p class="link-tips-title"><span class="icon icon__sidebar_phone"></span><span>售前咨询</span></p>
+                    <p class="link-tips-des">4000188113转1</p>
+                </a>
+                <a target="_blank" href="https://spt.ucloud.cn/" class="service">
+                    <p class="link-tips-title"><span class="icon  icon__sidebar_headset"></span><span>售后咨询</span></p>
+                    <p class="link-tips-des">4000188113转2</p>
+                </a>
+                <a target="_blank" href="https://spt.ucloud.cn/30002" class="service">
+                    <p class="link-tips-title"><span class="icon icon__sidebar_web"></span><span>网站备案咨询</span></p>
+                    <p class="link-tips-des">4000188113转3</p>
+                </a>
+                <a target="_blank" href="https://spt.ucloud.cn/150001" class="service">
+                    <p class="link-tips-title"><span class="icon icon__sidebar_security"></span><span>公安备案咨询</span></p>
+                    <p class="link-tips-des">4000188113转6</p>
+                </a>
+            </div>
+        </div>
+        <div class="link-wrap back-to-top">
+            <div class="link-tips">
+                返回顶部
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-footer-main clearfix">
+        <div class="home-main">
+            <div class="foot-nav-left">
+                <div class="gray-logo icon icon__logo_new"></div>
+                <div class="basic-infor">
+                    Copyright © 2012-<span id="yearNew"></span> UCloud
+                    </br>
+                    优刻得科技股份有限公司
+                    </br>
+                    Tel：4000188113
+                </div>
+                <ul class="icon-col">
+                    <li>
+                        <a href="http://t.cn/z8emy2d"  target="_blank">
+                            <i class="icon-footer weibo"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="icon-footer wechat"></i>
+                            <img width="70" src="static/picture/7a4b6983f4b94bcb97380adc5d073865.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot-nav-right">
+                <div class="columns">
+                    <h3>UCloud与云服务</h3>
+                    <ul>
+                        <li>
+                        <a href="/site/about/intro/">公司介绍</a>
+                        </li>
+                        <li>
+                            <a href="https://zhaopin.ucloud.cn/" target="_blank">加入我们</a>
+                            </li>
+                        <li>
+                            <a href="https://www.ucloud.cn/site/iconDown/icondown.html">素材下载</a>
+                        </li>
+                        <li>
+                            <a href="https://uclub.ucloud.cn/?ytag=gwym" target="_blank">用户社区</a>
+                        </li>
+                        <li>
+                            <a href="http://education.ucloud.cn/modules/resource.php" target="_blank">教学视频</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xinnet.com" target="_blank" rel="nofollow">域名供应商：新网</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3>快速入口</h3>
+                    <ul>
+                        <li>
+                        <a href="https://docs.ucloud.cn" target="_blank">文档中心</a>
+                        </li>
+                        <li>
+                        <a href="/site/ucsafe/">安全中心</a>
+                        </li>
+                        <li>
+                            <a href="https://sec.ucloud.cn/" target="_blank">安全应急响应中心</a>
+                        </li>
+                        <li>
+                            <a href="https://www.ucloud.cn/site/report.html" target="_blank">违规举报</a>
+                        </li>
+                        <li>
+                            <a href="https://www.12321.cn/" target="_blank">12321举报中心</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3>常见问题</h3>
+                    <ul>
+                        <li>
+                        <a href="https://docs.ucloud.cn/api/summary/README" target="_blank">API相关</a>
+                        </li>
+                        <li>
+                        <a href="https://docs.ucloud.cn/login/README" target="_blank">登录相关</a>
+                        </li>
+                        <li>
+                        <a href="https://docs.ucloud.cn/sla/README" target="_blank">服务相关</a>
+                        </li>
+                        <li>
+                        <a href="https://docs.ucloud.cn/beian1/problem/problem2" target="_blank">备案相关</a>
+                        </li>
+                        <li>
+                        <a href="https://docs.ucloud.cn/charge/README" target="_blank">计费相关</a>
+                        </li>
+                        <li>
+                        <a href="/site/notice/">公告</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer-copyright">
+        <div class="copyright-main">
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002000058">沪公网安备 31011002000058号</a>
+            | <a href="https://beian.miit.gov.cn" target="_blank">沪ICP备12020087号</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    (function(w, d, t, u, n, i, s, a) {
+        w[n] = w[n] || {
+                q: [['set','aid', i]],
+                set: function(){this.q.push(['set'].concat(Array.prototype.slice.apply(arguments)))},
+                send: function(){this.q.push(['send'].concat(Array.prototype.slice.apply(arguments)))}
+            };
+
+        s = d.createElement(t);
+        a = d.getElementsByTagName(t)[0];
+        s.async = true;
+        s.crossorigin = true;
+        s.src = u;
+        a.parentNode.insertBefore(s, a)
+    })(window, document, 'script', ('https:' == document.location.protocol ? 'https://' : 'http://') + 'das-rpt-static.ucloud.cn/das.js?v=' + Math.random(), 'das', 'iywtleaa');
+</script>
+
+<!-- seo站隐藏外链 -->
+<ul>
+    <li style="display:none;">
+        <a href="https://www.ucloud.cn/yun/zixun/">云资讯</a></li>
+        <li style="display:none;">
+        <a href="https://www.ucloud.cn/yun/chanpin/">云产品</a>
+        <t><a href="https://www.ucloud.cn/yun/ubeian/">网站备案</a>
+        <a href="https://www.ucloud.cn/yun/udbaudit/">数据库审计</a>
+        <a href="https://www.ucloud.cn/yun/udbcp/">等保合规测评</a>
+        <a href="https://www.ucloud.cn/yun/uhas/">堡垒机</a>
+        <a href="https://www.ucloud.cn/yun/uhids/">主机入侵检测</a>
+        <a href="https://www.ucloud.cn/yun/uws/">Web漏洞扫描</a>
+        <a href="https://www.ucloud.cn/yun/uads/">DDoS攻击防护</a>
+        <a href="https://www.ucloud.cn/yun/uewaf/">Web应用防火墙</a>
+        <a href="https://www.ucloud.cn/yun/uaitrain/">AI训练</a>
+        <a href="https://www.ucloud.cn/yun/uhadoop/">Hadoop托管集群</a>
+        <a href="https://www.ucloud.cn/yun/ukafka/">Kafka消息队列</a>
+        <a href="https://www.ucloud.cn/yun/ues/">Elasticsearch日志分析</a>
+        <a href="https://www.ucloud.cn/yun/uscheduler/">调度系统</a>
+        <a href="https://www.ucloud.cn/yun/ukms/">密钥管理</a>
+        <a href="https://www.ucloud.cn/yun/uapi/">开放API</a>
+        <a href="https://www.ucloud.cn/yun/udnr/">域名</a>
+        <a href="https://www.ucloud.cn/yun/ussl/">SSL证书</a>
+        <a href="https://www.ucloud.cn/yun/uservice/">启明运维服务</a>
+        <a href="https://www.ucloud.cn/yun/ulink/">云互通</a>
+        <a href="https://www.ucloud.cn/yun/ulan/">内网</a>
+        <a href="https://www.ucloud.cn/yun/uwan/">外网 </a>
+        <a href="https://www.ucloud.cn/yun/userver/">定制化物理机</a>
+        <a href="https://www.ucloud.cn/yun/ucabinet/">机柜托管</a>
+        <a href="https://www.ucloud.cn/yun/uconnect/">专线接入</a>
+        <a href="https://www.ucloud.cn/yun/uhybrid/">混合云</a>
+        <a href="https://www.ucloud.cn/yun/uam/">账号与权限管理</a>
+        <a href="https://www.ucloud.cn/yun/umon/">云监控</a>
+        <a href="https://www.ucloud.cn/yun/usql/">数据湖分析</a>
+        <a href="https://www.ucloud.cn/yun/safeshouse/">安全屋</a>
+        <a href="https://www.ucloud.cn/yun/ufile/">云存储</a>
+        <a href="https://www.ucloud.cn/yun/rome/">罗马</a>
+        <a href="https://www.ucloud.cn/yun/udpn/">高速通道</a>
+        <a href="https://www.ucloud.cn/yun/ipsecvpn/">VPN网关</a>
+        <a href="https://www.ucloud.cn/yun/uvpc/">私有网络</a>
+        <a href="https://www.ucloud.cn/yun/ulb/">负载均衡</a>
+        <a href="https://www.ucloud.cn/yun/unet/">网络</a>
+        <a href="https://www.ucloud.cn/yun/uk8s/">容器云</a>
+        <a href="https://www.ucloud.cn/yun/udhost/">云主机私有专区</a>
+        <a href="https://www.ucloud.cn/yun/ugc/">通用计算</a>
+        <a href="https://www.ucloud.cn/yun/gpu/">GPU云主机</a>
+        <a href="https://www.ucloud.cn/yun/uphost/">物理云主机</a>
+        <a href="https://www.ucloud.cn/yun/udisk/">云硬盘</a>
+        <a href="https://www.ucloud.cn/yun/udataark/">数据方舟</a>
+        <a href="https://www.ucloud.cn/yun/ulive/">直播云</a>
+        <a href="https://www.ucloud.cn/yun/videosdk/">视频云</a>
+        <a href="https://www.ucloud.cn/yun/udb4sqlserver/">SQL Server云数据库</a>
+        <a href="https://www.ucloud.cn/yun/uddb/">分布式数据库</a>
+        <a href="https://www.ucloud.cn/yun/udw/">数据仓库</a>
+        <a href="https://www.ucloud.cn/yun/umem/">云内存数据库</a>
+        <a href="https://www.ucloud.cn/yun/udb4pgsql/">PgSQL云数据库</a>
+        <a href="https://www.ucloud.cn/yun/udb4mongodb/">MongoDB云数据库</a>
+        <a href="https://www.ucloud.cn/yun/udb/">MySQL云数据库</a>
+        <a href="https://www.ucloud.cn/yun/uedn/">边缘分发节点</a>
+        <a href="https://www.ucloud.cn/yun/cdn/">CDN</a>
+        <a href="https://www.ucloud.cn/yun/uarchive/">归档存储</a>
+        <a href="https://www.ucloud.cn/yun/uhost/">云主机</a></t></li>
+        <li style="display:none;">
+        <a href="https://www.ucloud.cn/yun/kaifa/">云开发</a>
+        <t><a href="https://www.ucloud.cn/yun/uwp/">UWP</a>
+        <a href="https://www.ucloud.cn/yun/safety/">安全</a>
+        <a href="https://www.ucloud.cn/yun/iis/">IIS</a>
+        <a href="https://www.ucloud.cn/yun/tomcat/">Tomcat</a>
+        <a href="https://www.ucloud.cn/yun/apache/">Apache</a>
+        <a href="https://www.ucloud.cn/yun/nginx/">Nginx</a>
+        <a href="https://www.ucloud.cn/yun/SoftwareTest/">软件测试</a>
+        <a href="https://www.ucloud.cn/yun/debian/">Debian</a>
+        <a href="https://www.ucloud.cn/yun/ubuntu/">ubuntu </a>
+        <a href="https://www.ucloud.cn/yun/linux/">Linux</a>
+        <a href="https://www.ucloud.cn/yun/WindowsServer/">Windows Server</a>
+        <a href="https://www.ucloud.cn/yun/ios/">iOS开发</a>
+        <a href="https://www.ucloud.cn/yun/android/">Android开发</a>
+        <a href="https://www.ucloud.cn/yun/GameEngine/">其它游戏引擎</a>
+        <a href="https://www.ucloud.cn/yun/ComputerBasics/">计算机基础</a>
+        <a href="https://www.ucloud.cn/yun/VideoDevelopment/">音视频开发</a>
+        <a href="https://www.ucloud.cn/yun/dotnet/">.NET技术</a>
+        <a href="https://www.ucloud.cn/yun/WinRTMetro/">WinRT/Metro</a>
+        <a href="https://www.ucloud.cn/yun/nhibernate/">Nhibernate</a>
+        <a href="https://www.ucloud.cn/yun/EntityFramework/">Entity Framework</a>
+        <a href="https://www.ucloud.cn/yun/ControlDevelopment/">控件开发</a>
+        <a href="https://www.ucloud.cn/yun/VisualStudio/">Visual Studio</a>
+        <a href="https://www.ucloud.cn/yun/xna/">XNA</a>
+        <a href="https://www.ucloud.cn/yun/wpf/">WPF</a>
+        <a href="https://www.ucloud.cn/yun/clr/">CLR</a>
+        <a href="https://www.ucloud.cn/yun/wcf/">WCF</a>
+        <a href="https://www.ucloud.cn/yun/Silverlight/">Silverlight</a>
+        <a href="https://www.ucloud.cn/yun/WinForm/">WinForm</a>
+        <a href="https://www.ucloud.cn/yun/csharp/">C#</a>
+        <a href="https://www.ucloud.cn/yun/asp/">ASP</a>
+        <a href="https://www.ucloud.cn/yun/GameDesigner/">游戏策划与运营</a>
+        <a href="https://www.ucloud.cn/yun/Unity3D/">Unity3D</a>
+        <a href="https://www.ucloud.cn/yun/verilog/">Verilog</a>
+        <a href="https://www.ucloud.cn/yun/R/">R语言</a>
+        <a href="https://www.ucloud.cn/yun/scala/">Scala</a>
+        <a href="https://www.ucloud.cn/yun/swift/">Swift</a>
+        <a href="https://www.ucloud.cn/yun/go/">Go</a>
+        <a href="https://www.ucloud.cn/yun/erlang/">Erlang</a>
+        <a href="https://www.ucloud.cn/yun/c/">C语言</a>
+        <a href="https://www.ucloud.cn/yun/ruby/">Ruby</a>
+        <a href="https://www.ucloud.cn/yun/java/">Java</a>
+        <a href="https://www.ucloud.cn/yun/python/">Python</a>
+        <a href="https://www.ucloud.cn/yun/centos/">CentOS</a>
+        <a href="https://www.ucloud.cn/yun/C++/">C++</a>
+        <a href="https://www.ucloud.cn/yun/php/">PHP</a>
+        <a href="https://www.ucloud.cn/yun/dart/">Dart</a>
+        <a href="https://www.ucloud.cn/yun/others/">其它语言</a>
+        <a href="https://www.ucloud.cn/yun/html1/">Html</a>
+        <a href="https://www.ucloud.cn/yun/Cocos2d-x/">Cocos2d-x</a>
+        <a href="https://www.ucloud.cn/yun/Redis/">Redis</a>
+        <a href="https://www.ucloud.cn/yun/NoSQL/">NoSQL</a>
+        <a href="https://www.ucloud.cn/yun/MySQL/">MySQL</a>
+        <a href="https://www.ucloud.cn/yun/oracle/">Oracle</a>
+        <a href="https://www.ucloud.cn/yun/database/">数据库</a>
+        <a href="https://www.ucloud.cn/yun/sqlserver/">SQL Server</a>
+        <a href="https://www.ucloud.cn/yun/architect/">架构</a>
+        <a href="https://www.ucloud.cn/yun/MiniProgram/">小程序</a>
+        <a href="https://www.ucloud.cn/yun/HTML5/">HTML5</a>
+        <a href="https://www.ucloud.cn/yun/jquery/">jQuery</a>
+        <a href="https://www.ucloud.cn/yun/javascript/">JavaScript</a>
+        <a href="https://www.ucloud.cn/yun/css/">Css</a>
+        <a href="https://www.ucloud.cn/yun/bianchengyuyan/">编程语言</a>
+        <a href="https://www.ucloud.cn/yun/taglist.html">标签列表</a>
+        </t></li>
+        <li style="display:none;">
+        <a href="https://www.ucloud.cn/yun/jishu/">云技术</a>
+        <t><a href="https://www.ucloud.cn/yun/blockchain/">区块链</a>
+        <a href="https://www.ucloud.cn/yun/ArchitectureDesign/">架构设计</a>
+        <a href="https://www.ucloud.cn/yun/DataCenter/">数据中心</a>
+        <a href="https://www.ucloud.cn/yun/SecurityCompliance/">安全与合规</a>
+        <a href="https://www.ucloud.cn/yun/AudioVideo/">音视频</a>
+        <a href="https://www.ucloud.cn/yun/CDN/">云分发</a>
+        <a href="https://www.ucloud.cn/yun/DataBase/">存储与数据库</a>
+        <a href="https://www.ucloud.cn/yun/Net/">网络</a>
+        <a href="https://www.ucloud.cn/yun/SafeHouse/">安全屋</a>
+        <a href="https://www.ucloud.cn/yun/k8s/">k8s</a>
+        <a href="https://www.ucloud.cn/yun/virtualization/">虚拟化</a>
+        <a href="https://www.ucloud.cn/yun/iot/">物联网</a>
+        <a href="https://www.ucloud.cn/yun/ai/">人工智能</a>
+        <a href="https://www.ucloud.cn/yun/bigdata/">大数据</a>
+        <a href="https://www.ucloud.cn/yun/othertech/">其他</a></t></li>
+        <li style="display:none;">
+        <a href="https://www.ucloud.cn/yun/yunweikaifa/">运维/开发</a>
+        <t><a href="https://www.ucloud.cn/yun/GameDevelopment/">游戏开发</a>
+        <a href="https://www.ucloud.cn/yun/operatingsystem/">操作系统</a>
+        <a href="https://www.ucloud.cn/yun/language/">开发语言</a>
+        <a href="https://www.ucloud.cn/yun/testing/">测试</a>
+        <a href="https://www.ucloud.cn/yun/WebDevelop/">前端开发</a>
+        <a href="https://www.ucloud.cn/yun/mobiledevelop/">移动开发</a>
+        <a href="https://www.ucloud.cn/yun/website/">网站建设</a>
+        <a href="https://www.ucloud.cn/yun/DevOps/">运维</a>
+        <a href="https://www.ucloud.cn/yun/SoftwareDesign/">软件设计</a>
+        <a href="https://www.ucloud.cn/yun/Others/">其他</a></t></li>
+</ul>
+<!-- seo站隐藏外链 -->
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UCloud – UCloud中立云计算服务商</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://static.ucloud.cn/db3601e18b594167bdfc8bd5986fcf7a.ico">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border: 0;
+            vertical-align: baseline;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: "Microsoft Yahei", 微软雅黑, Tahoma, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            color: rgb(102, 102, 102);
+            min-width: 1024px;
+            overflow: auto;
+            line-height: 1;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.5);
+            outline-offset: -2px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            width: 6px;
+            height: 6px;
+            -webkit-border-radius: 6px;
+        }
+        ::-webkit-scrollbar-track-piece {
+            background-color: transparent;
+            -webkit-border-radius: 0;
+        }
+        a:link, a:visited {
+            color: #999999;
+            text-decoration: none;
+        }
+        a {
+            cursor: pointer;
+        }
+        .clearfix:before,
+        .clearfix:after {
+            content: " ";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .misspage-layer{
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+        }
+        .main-wrap{
+            position: relative;
+            margin: 0 auto;
+            width: 753px;
+            padding-top: 10%;
+        }
+        .main-wrap .misspage-content{
+            width: 100%;
+            color: #6b798e;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+        }
+        .main-wrap .black{
+            font-size: 14px;
+            line-height: 34px;
+            color: #0a1633;
+        }
+        .main-wrap .misspage-btn{
+            line-height: 24px;
+            color: #3860f4;
+        }
+    </style>
+</head>
+<body>
+<div class="misspage-layer">
+    <div class="main-wrap clearfix">
+        <div class="misspage-content">
+            <img width="320" src="https://static.ucloud.cn/a568d2d1e0294920a775de203511cd75.png"/>
+            <div class="black">抱歉 找不到原来的页面了。</div>
+            <div>您所访问的页面不存在或者已经下线。给您带来的不便敬请谅解。</div>
+            <a class="misspage-btn" href="https://www.ucloud.cn/">返回UCloud官网 &gt;</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
